@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Jura&family=Love+Ya+Like+A+Sister&display=swap');
+body{
+    font-family: 'Jura', sans-serif;
+    margin:0;
+    font-size: 22px;
+    background-image: url(images/dvalin.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1{
+    font-family: 'Hachi Maru Pop', cursive;
+    color: #03436A;
+    font-size: 48px;
+}
+h2{
+    font-family: 'Hachi Maru Pop', cursive;
+    color: #03436A;
+}
+header{
+    background-color: #0969A2;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoimg{
+    width: 25%;
+    padding: 15px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 6px;
+    background-color:#64A8D1;
+    border: #64A8D1 solid 1px;
+    font-family: 'Jura', sans-serif;
+    margin-right: 1500px;
+    margin-top: 130px;
+    font-size: 22px;
+}
+.wow{
+    color: #03436A;
+    font-family: 'Jura', sans-serif;
+    background-color: #0969A2;
+    margin-right: 10px;
+}
+.beu{
+    font-family: 'Love Ya Like A Sister', cursive;
+    background-color: rgba(0,0,0,0.5);
+    color: #03436A;
+    font-size: 48px;
+    border: white solid 2px;
+}
+.banner{
+    padding: 20% 5%;
+}
+.footercop{
+    background-color: #03436A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color:white;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.fotterins{
+    background-color: #64A8D1;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Jura', sans-serif;
+}
+.post{
+    padding: 10px 5%;
+    text-align: center;
+    background-color:white;
+}
+.post>*{
+    display: inline-block;
+    width:500px;
+    font-size:25px;
+    color:white;
+    vertical-align: middle;
+    border: 3px solid #709EE2;
+}
+.frame{
+    background-color:#64A8D1;
+    border: 3px solid #0969A2;
+    width: 700px;
+    height: 250px;
+}
+
+.obv{
+    background-color:#64A8D1;
+    border: 3px solid #0969A2;
+}
+.razryv{
+    height:100px;
+}
+main{
+    text-align: center;
+}
+.info{
+    background-color:#03436A;
+    border: 2px #64A8D1;
+    width: 1309px;
+    height: 144px;
+    text-align: center;
+}
+iframe{
+    display: block;
+}
+.mec{
+    background-color:#03436A;
+    color:#709EE2;
+    border: 2px solid #64A8D1;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    margin: 10px auto;
+}
+.fff{
+    margin: 10px auto;
+}
